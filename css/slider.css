@@ -1,0 +1,47 @@
+.slider{
+  display: flex;
+  margin: 100px 0;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+ 
+}
+
+.content-slider h3,
+.hireus-title {
+  margin: 0;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.slider-item{
+  max-width: 350px;
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+
+.slider-item h5 {
+  text-transform: uppercase;
+}
+
+.content-slider h3 {
+  margin: 0;
+  text-align: center;
+  padding: 30px;
+}
+
+.slider-item span{
+  display: none;
+}
+
+.slider-item:hover{
+  transform: scale(1.5)
+}
+
+.slider-item:hover span{
+  display: inline-block;
+}

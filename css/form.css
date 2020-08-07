@@ -1,0 +1,90 @@
+.hireus-title {
+  text-align: center;
+}
+
+.hire,
+.hire p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hire{
+    flex-direction: column;
+}
+
+.hire p{
+    flex-direction: row;
+}
+
+.hire-input {
+  display: none;
+}
+
+.hire-label {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  padding: 13px 0;
+  box-sizing: border-box;
+  margin: 25px;
+  display: inline-block;
+  position: relative;
+}
+
+.hire-label:before {
+  content: "";
+  border: 1px solid #fff;
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+
+
+.hire-input:checked + .hire-label {
+  background-color: darkslategray;
+}
+
+.hire-input:checked + .hire-label:before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-image: url(/img/check.png);
+  background-repeat: no-repeat;
+  top: 15px;
+  left:55px;
+}
+
+.hire button{
+    display: block;
+}
+
+.name-input{
+    background-color: black;
+    box-shadow: none;
+    padding: 15px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    outline: none;
+}
+
+.hire-button{
+    margin-top: 65px;
+    width: 400px;
+    height: 50px;
+    background-color: darkslategray;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    align-self: center;
+}
+

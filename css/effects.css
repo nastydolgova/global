@@ -1,0 +1,23 @@
+.header-logo:hover{
+    transform: scale(1.2);
+}
+
+.line-nav li:hover,
+.content-list li:hover,
+.about-item a:hover,
+.hire-link:hover
+{
+    opacity: 0.5;
+}
+
+
+.content-main a:hover::before,
+.about-link:hover::before{
+    transform: translateX(100vw);
+    transition: 1s;
+}
+
+
+.hire-label:hover{
+    opacity: 0.6;
+    }
