@@ -68,7 +68,7 @@ main {
 }
 
 .line {
-  background-image: url(/img/navigation.png);
+  background-image: url(./img/navigation.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 30px 10px;
@@ -91,7 +91,7 @@ main {
 }
 
 .content-main {
-  background-image: url(/img/img.png);
+  background-image: url(./img/img.png);
   background-repeat: no-repeat;
   background-position: 950px 130px;
 }
@@ -116,7 +116,7 @@ main {
   text-transform: uppercase;
   position: relative;
   color: #fff;
-  background-image: url(/img/Rectangle_2.png);
+  background-image: url(./img/Rectangle_2.png);
   background-position: right;
   background-repeat: no-repeat;
   width: 110px;
@@ -131,7 +131,7 @@ main {
   position: absolute;
   top: -5px;
   left: 45px;
-  background-image: url(/img/arrow.png);
+  background-image: url(./img/arrow.png);
   background-repeat: no-repeat;
   background-position: 35px 8px;
 }
@@ -161,13 +161,13 @@ main {
 }
 
 .content-about {
-  background-image: url(/img/bg-about.png);
+  background-image: url(./img/bg-about.png);
   background-repeat: no-repeat;
   background-position: 860px 0px;
 }
 
 .content-contact {
-  background-image: url(/img/map.png);
+  background-image: url(./img/map.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -232,7 +232,7 @@ main {
   position: absolute;
   top: 35px;
   left: 40px;
-  background-image: url(/img/arrow.png);
+  background-image: url(./img/arrow.png);
   background-repeat: no-repeat;
   background-position: 35px 8px;
 }
